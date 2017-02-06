@@ -36,7 +36,7 @@ def get_running(n):
     f.write(data)
     f.close()
 
-#for i in range(1, N+1):
-for i in range(31, N+1):
+for i in range(1, N+1):
+#for i in range(31, N+1):
     get_running(i)
 
